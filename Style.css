@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BYekan;
+}
+@font-face {
+    font-family:BYekan;
+    src: url(File/font/Yekan.woff) format("woff");
+}
+img
+{
+    width: 150px;
+    height: 150px;
+}
+body ,.Continer,.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body
+{
+    height: 100vh;
+    background: linear-gradient(140deg,#0079FF,#FF0060);
+}
+.Continer
+{
+    flex-direction: column;
+    width: 450px;
+    background:rgba(241, 239, 239, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.Continer h1
+{
+    font-size: 3rem;
+    margin: 15px 0;
+}
+.Continer .content
+{
+    width: 100%;
+    justify-content: space-between;
+
+}
+.Continer .content.disabel
+{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.content .Controls
+{
+    margin-left: 5px;
+    border:1px solid black;
+    width: calc(100%/2);
+    border-radius: 8px;
+    padding: 5px 10px;
+    background: rgb(236, 231, 231);
+}
+.content .Controls select
+{
+    outline: 0;
+    border: 0;
+    width: 100%;
+}
+.Continer button
+{
+    width: 100%;
+    margin-top: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    background: #0079FF;
+    font-size: 1rem;
+    color: aliceblue;
+    padding: 15px 0;
+    font-weight:bold ;
+}
